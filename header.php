@@ -17,6 +17,23 @@
     </head>
     <header>
 
+      <nav>
+        <p><?php
+        require ('info.php');
+        echo $titre['titre'] . "<br>";
+        echo $titre['product'] . "<br>";
+        echo $titre['nom'];
+         ?></p>
+    <div class="nav-wrapper light-blue lighten-5">
+      <a href="#" class="brand-logo"></a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+
     </header>
 
     <body>

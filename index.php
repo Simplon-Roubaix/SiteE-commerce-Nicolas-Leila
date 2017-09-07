@@ -3,7 +3,6 @@ include('header.php');
  ?>
 
 
-<p>hello</p>
 
 
 
@@ -26,7 +25,8 @@ include('header.php');
 
 
 
- <<?php
+
+ <?php
  include('footer.php')
 
   ?>
