@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="fr">
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -13,20 +13,17 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/materialize.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <header>
-      <p class="light-blue lighten-4"><?php
-      require ('info.php');
-      echo $infos['header']['titre'] ."<br>";
-      echo $infos['header']['product']  . "<br>";
-      echo $infos['header']['nom'] ;
-       ?></p>
-       
+
+
       <nav>
 
     <div class="nav-wrapper light-blue lighten-5">
-      <a href="#" class="brand-logo"></a>
+      <a href="#" class="brand-logo"><?php
+      echo $infos['header']['titre'] ."<br>";
+      echo $infos['header']['product']  . "<br>";
+      echo $infos['header']['nom'] ;?></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="sass.html">Sass</a></li>
         <li><a href="badges.html">Components</a></li>
@@ -35,6 +32,6 @@
     </div>
   </nav>
 
-    </header>
+
 
     <body>
