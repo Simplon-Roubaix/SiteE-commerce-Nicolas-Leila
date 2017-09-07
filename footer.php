@@ -3,24 +3,26 @@
          <div class="container">
            <div class="row">
              <div class="col l6 s12">
-               <h5 class="white-text">Footer Content</h5>
-               <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+               <h5 class="white-text"><?php
+               echo $infos['footer']['titre']?></h5>
+               <p class="grey-text text-lighten-4"><?php
+               echo $infos['footer']['description']?></p>
              </div>
              <div class="col l4 offset-l2 s12">
-               <h5 class="white-text">Links</h5>
+               <h5 class="white-text">Blogs/Partenaires</h5>
                <ul>
-                 <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                 <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                 <li><a class="grey-text text-lighten-3" href="https://simplon.co/roubaix/" target = "_blank">Simplon</a></li>
+                 <li><a class="grey-text text-lighten-3" href="https://urbaniak62.github.io/blogTech-html/" target = "_blank">Nicolas Blog</a></li>
+                 <li><a class="grey-text text-lighten-3" href="https://leilal.github.io/Spotlight/" target = "_blank">Spotlight</a></li>
+                 <li><a class="grey-text text-lighten-3" href="http://agence-bmobile.com/#/home" target = "_blank">Bmobile</a></li>
                </ul>
              </div>
            </div>
          </div>
          <div class="footer-copyright">
            <div class="container">
-           © 2014 Copyright Text
-           <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+           © 2017 Copyright
+           <a class="grey-text text-lighten-4 right" href="#!">Contact Us</a>
            </div>
          </div>
        </footer>

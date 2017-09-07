@@ -17,12 +17,12 @@
     </head>
     <header>
       <p class="light-blue lighten-4"><?php
-      require ('info.php');
+      
       echo $infos['header']['titre'] ."<br>";
       echo $infos['header']['product']  . "<br>";
       echo $infos['header']['nom'] ;
        ?></p>
-       
+
       <nav>
 
     <div class="nav-wrapper light-blue lighten-5">
