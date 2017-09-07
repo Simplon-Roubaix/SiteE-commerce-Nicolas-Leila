@@ -283,5 +283,10 @@ textarea {
 /*----------------------C S S  H E A D E R ------------*/
 /*------------------------------------------------------*/
 p{
+  margin: 0 auto;
   color: black;
+  margin: 0;
+}
+ul li a{
+  color:black;
 }

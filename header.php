@@ -16,14 +16,15 @@
 
     </head>
     <header>
-
+      <p class="light-blue lighten-4"><?php
+      require ('info.php');
+      echo $infos['header']['titre'] ."<br>";
+      echo $infos['header']['product']  . "<br>";
+      echo $infos['header']['nom'] ;
+       ?></p>
+       
       <nav>
-        <p><?php
-        require ('info.php');
-        echo $titre['titre'] . "<br>";
-        echo $titre['product'] . "<br>";
-        echo $titre['nom'];
-         ?></p>
+
     <div class="nav-wrapper light-blue lighten-5">
       <a href="#" class="brand-logo"></a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
