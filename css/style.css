@@ -1,3 +1,10 @@
+/*gris : #313131*/
+
+@font-face {
+    font-family: "wheel";
+    src: url(../fonts/wheel/TYPEW___.TTF);
+}
+
 body {
    display: flex;
    min-height: 100vh;
