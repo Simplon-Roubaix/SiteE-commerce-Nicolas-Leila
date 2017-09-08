@@ -8,5 +8,9 @@ body {
    flex: 1 0 auto;
  }
 nav{
-  height:150px;
+  height:200px;
+}
+nav .brand-logo{
+  margin-left: 5%;
+  color:black;
 }
