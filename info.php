@@ -9,7 +9,14 @@
                 'lien1'  =>'Notre entreprise',
                 'lien2'  =>'Nos promotions',
                 'lien3'  =>'contact'],
-  'footer' => []
+
+
+
+
+  'footer' => ['titre'=>'A propos de nous',
+               'description'=>'Le binôme Nicolas-Leila. 2 apprenants Simplon
+               blablablablablablabla blablabla'],
+
 
  ];
 

@@ -1,7 +1,20 @@
 <?php
+<<<<<<< HEAD
+require ('info.php');
+include('header.php');
+?>
+
+<main>
+
+</main>
+
+<?php
+include('footer.php');
+=======
 require('info.php');
 include('header.php');
 
+>>>>>>> 470604b388467c8b9defa4ae62702fd9ce39e32f
  ?>
 
 
