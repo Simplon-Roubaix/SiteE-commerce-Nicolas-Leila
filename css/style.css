@@ -1,27 +1,6 @@
-body {
-   display: flex;
-   min-height: 100vh;
-   flex-direction: column;
- }
+/*gris : #313131*/
 
- main {
-   flex: 1 0 auto;
- }
-nav{
-  height:200px;
+@font-face {
+    font-family: "wheel";
+    src: url(../fonts/wheel/TYPEW___.TTF);
 }
-nav .brand-logo{
-  margin-left: 5%;
-  color:black;
-  font-size: 1.5em;
-}
-nav span{
-  color: black;
-  font-size: 2.5em;
-  margin-left: 40%;
-  line-height: 200px;
-
-}
- /*.v{
-  color:black;
-}*/
