@@ -1,5 +1,5 @@
 <?php
-require('produit.php');
+require('cartes.php');
 require ('info.php');
 include('header.php');
 ?>
@@ -16,8 +16,14 @@ foreach ($produits as $key => $value) {
       <div class="card">
         <div class="card-image">
           <img src="<?php echo $value['image']; ?>">
-          <span class="card-title">Card Title</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+          <span class="card-title"></span>
+          <form class="x" action="produit2.php" method="post">
+
+              <input type="hidden" name="clé" value="<?php echo $key?>">
+              <input type="submit" value="+" class="btn-floating halfway-fab waves-effect waves-light red"/>
+
+          </form>
+
         </div>
         <div class="card-content">
           <p> <?php echo $value['description']; ?></p>
