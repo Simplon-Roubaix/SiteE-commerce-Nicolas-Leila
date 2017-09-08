@@ -2,13 +2,8 @@
 
  /*-------------HEADER-------------------*/
  $infos=[
-   'header' => ['titre'  =>'Notre site E-commerce',
-                'product'=>'By',
-                'nom'    =>'Leila & Nicolas',
-                'desc'   =>'MyFurniture',
-                'lien1'  =>'Notre entreprise',
-                'lien2'  =>'Nos promotions',
-                'lien3'  =>'contact'],
+   'header' => ['titre'  =>'My Furniture',
+                'nom'    =>'By Leila & Nicolas'],
 
 
 
@@ -17,7 +12,7 @@
                'description'=>'Le binôme Nicolas-Leila. 2 apprenants Simplon
                blablablablablablabla blablabla'],
 
-          
+
  ];
 
 

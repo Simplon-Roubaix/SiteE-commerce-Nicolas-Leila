@@ -1,24 +1,24 @@
 <?php
 $produits=[
-  'meuble1'=> ['image'       => './img/110346_1.jpg',
+  'meuble1'=> ['image'       => './img/fauteuil.jpg',
             'description'    => 'meuble ancien tres casse couilles',
             'prix'           => '90 $',
 
           ],
 
 
-  'meuble2'=> ['image'       => './img/meuble-cuisine.jpg',
+  'meuble2'=> ['image'       => './img/coiffeuse.jpg',
             'description'    => 'text',
             'prix'           => '$',
           ],
 
 
-  'meuble3'=> ['image'       => './img/meuble2.jpg',
+  'meuble3'=> ['image'       => './img/lustre.jpeg',
             'description'    => 'text',
             'prix'           => '$',
           ],
 
-  'meuble4'=> ['image'       => './img/meuble3.jpg',
+  'meuble4'=> ['image'       => './img/salon.jpg',
             'description'    => 'text',
             'prix'           => '$',
           ],
