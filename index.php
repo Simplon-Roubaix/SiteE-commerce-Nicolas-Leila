@@ -1,5 +1,5 @@
 <?php
-require('produit.php');
+require('cartes.php');
 require ('info.php');
 include('header.php');
 ?>
