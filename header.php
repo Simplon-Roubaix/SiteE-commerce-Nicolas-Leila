@@ -15,18 +15,9 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/style.css">
     </head>
-<<<<<<< HEAD
+
     <header>
-      <p class="light-blue lighten-4"><?php
       
-      echo $infos['header']['titre'] ."<br>";
-      echo $infos['header']['product']  . "<br>";
-      echo $infos['header']['nom'] ;
-       ?></p>
-=======
-
->>>>>>> 470604b388467c8b9defa4ae62702fd9ce39e32f
-
       <nav>
 
         <div class="nav-wrapper light-blue lighten-5">
