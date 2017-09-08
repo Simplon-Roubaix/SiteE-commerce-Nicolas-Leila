@@ -280,14 +280,3 @@ textarea {
         page-break-after: avoid;
     }
 }
-/*----------------------C S S  H E A D E R ------------*/
-/*------------------------------------------------------*/
-p{
-  margin: 0 auto;
-  color: black;
-  margin: 0;
-}
-ul li a{
-  color:black;
-  line-height: 200px;
-}
