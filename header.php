@@ -29,15 +29,17 @@
 
       <nav>
 
-    <div class="nav-wrapper light-blue lighten-5">
-      <a href="#" class="brand-logo"><?php
-      echo $infos['header']['titre'] ."<br>";
-      echo $infos['header']['product']  . "<br>";
-      echo $infos['header']['nom'] ;?></a>
+        <div class="nav-wrapper light-blue lighten-5">
+          <a href="#" class="brand-logo"><?php
+          echo $infos['header']['titre'] ."<br>";
+          echo $infos['header']['product']  . "<br>";
+          echo $infos['header']['nom'] ;?></a>
+          <span><?php echo $infos['header']['desc'] ;?></span>
+
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="sass.html">Sass</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="#"><?php echo $infos['header']['lien1'] ;?></a></li>
+        <li><a href="#"><?php echo $infos['header']['lien2'] ;?></a></li>
+        <li><a href="#"><?php echo $infos['header']['lien3'] ;?></a></li>
       </ul>
     </div>
   </nav>
