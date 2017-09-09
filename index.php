@@ -10,10 +10,10 @@ include('header.php');
 
 <?php
 foreach ($produits as $key => $value) {
-  # code...
+
 ?>
 
-  <div class="col s12 m6 l6 xl6">
+  <div id="carte" class="col s12 m6 l6 xl6">
     <div class="card horizontal card small">
       <div class="card-image">
         <img src="<?php echo $value['image']; ?>" alt="meuble">
@@ -21,12 +21,12 @@ foreach ($produits as $key => $value) {
       <div class="card-stacked">
         <div class="card-content">
           <p> <?php echo $value['description']; ?><br>
-           <?php echo 'prix '.$value['prix']; ?></p>
+           <?php echo $value['prix']; ?></p>
         </div>
         <div class="card-action">
-          <form class="" action="descriptionProduit.php" method="post">
+          <form class="" action="pageProduit.php" method="post">
           <input type="hidden" name="clé" value="<?php echo $key?>">
-        <a href="pageProduit.php" id="linkProduct">Voir le produit<input type="submit" value="" class="btn-flat"/></a>
+          <input id="linkProduct" type="submit" value="Voir le produit" class="btn-flat"/>
         </form>
         </div>
       </div>

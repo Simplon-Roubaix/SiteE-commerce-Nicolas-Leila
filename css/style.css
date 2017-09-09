@@ -22,6 +22,10 @@ bleu : #039BE5*/
   color:  #039BE5;
 }
 
+#carte p {
+  color: #90a4ae;
+}
+
 
 /*================ FOOTER ===============*/
 
@@ -39,6 +43,11 @@ bleu : #039BE5*/
 }
 
 /*================ @MEDIA ===============*/
+@media (max-width: 925px) {
+  #linkProduct {
+    padding-left: 5%;
+  }
+}
 
 @media (max-width: 600px) {
     #logo {

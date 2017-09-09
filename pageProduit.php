@@ -5,15 +5,14 @@ require ('infosGenerales.php');
 include('header.php');
 ?>
  <?php
-// foreach ($produits as $key => $value) {
-  # code...
+foreach ($produits as $key => $value) {
  ?>
 
 
 
 
 <?php
-// }
+}
 ?>
 
  <?php

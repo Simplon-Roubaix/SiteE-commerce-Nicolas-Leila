@@ -1,26 +1,26 @@
 <?php
 $produits=[
-  'meuble1'=> ['image'       => 'img/coiffeuse.jpg',
-            'description'    => 'meuble ancien tres casse couilles',
-            'prix'           => '90 $',
+  'coiffeuse'=> ['image'       => 'img/coiffeuse.jpg',
+            'description'    => 'Coiffeuse mirroir en verre trempé',
+            'prix'           => '399 €',
 
           ],
 
 
-  'meuble2'=> ['image'       => 'img/fauteuil.jpg',
-            'description'    => 'text',
-            'prix'           => '$',
+  'fauteuil'=> ['image'       => 'img/fauteuil.jpg',
+            'description'    => 'Fauteuil capitonné en tissu',
+            'prix'           => '149 €',
           ],
 
 
-  'meuble3'=> ['image'       => 'img/salon.jpg',
-            'description'    => 'text',
-            'prix'           => '$',
+  'salon'=> ['image'       => 'img/salon.jpg',
+            'description'    => 'Canapé 2 places esprit scandinave',
+            'prix'           => '249 €',
           ],
 
-  'meuble4'=> ['image'       => 'img/lustre.jpeg',
-            'description'    => 'text',
-            'prix'           => '$',
+  'lustre'=> ['image'       => 'img/lustre.jpeg',
+            'description'    => 'Lustre 8 lumières en métal chromé et pampilles en verre',
+            'prix'           => '189 €',
           ],
 
 
