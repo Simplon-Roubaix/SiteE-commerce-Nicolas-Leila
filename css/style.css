@@ -1,6 +1,53 @@
-/*gris : #313131*/
+/*gris foncé : #313131
+gris clair : #393939
+bleu : #039BE5*/
 
 @font-face {
     font-family: "wheel";
     src: url(../fonts/wheel/TYPEW___.TTF);
+}
+
+/*============= HEADER =====================*/
+#header, #footer {
+  background-color: #313131;
+}
+
+
+/*================ CORPS ===============*/
+.titre {
+  font-family: "wheel";
+}
+
+#linkProduct {
+  color:  #039BE5;
+}
+
+
+/*================ FOOTER ===============*/
+
+#social {
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+#social li {
+  margin-right: 30px;
+}
+
+#secondFooter {
+  background-color: #393939;
+}
+
+/*================ @MEDIA ===============*/
+
+@media (max-width: 600px) {
+    #logo {
+        margin-bottom: 7%;
+    }
+}
+
+@media (max-width: 1200px) {
+    #logo {
+        margin-bottom: 4%;
+    }
 }

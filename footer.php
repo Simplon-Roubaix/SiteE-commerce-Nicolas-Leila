@@ -1,25 +1,28 @@
 
-  <footer class="page-footer">
+  <footer id="footer" class="page-footer">
          <div class="container">
            <div class="row">
              <div class="col l6 s12">
-               <h5 class="white-text"><?php
-               echo $infos['footer']['titre']?></h5>
-               <p class="grey-text text-lighten-4"><?php
-               echo $infos['footer']['description']?></p>
+               <h5 class="titre white-text"><?php echo $infos['footer']['titreSocial']?></h5>
+               <ul id="social">
+                 <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
+                 <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
+                 <li><a href="#" target="_blank"><i class="fa fa-pinterest-p fa-2x"></i></a></li>
+                 <li><a href="#" target="_blank"><i class="fa fa-instagram fa-2x"></i></a></li>
+               </ul>
              </div>
              <div class="col l4 offset-l2 s12">
-               <h5 class="white-text">Blogs/Partenaires</h5>
+               <h5 class="titre white-text"><?php echo $infos['footer']['titreSAV']?></h5>
                <ul>
-                 <li><a class="grey-text text-lighten-3" href="https://simplon.co/roubaix/" target = "_blank">Simplon</a></li>
-                 <li><a class="grey-text text-lighten-3" href="https://urbaniak62.github.io/blogTech-html/" target = "_blank">Nicolas Blog</a></li>
-                 <li><a class="grey-text text-lighten-3" href="https://leilal.github.io/Spotlight/" target = "_blank">Spotlight</a></li>
-                 <li><a class="grey-text text-lighten-3" href="http://agence-bmobile.com/#/home" target = "_blank">Bmobile</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#" target = "_blank">Livraisons</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#" target = "_blank">Remboursement et Retours</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#" target = "_blank">F.A.Q</a></li>
+                 <li><a class="grey-text text-lighten-3" href="#" target = "_blank">Termes et Conditions</a></li>
                </ul>
              </div>
            </div>
          </div>
-         <div class="footer-copyright">
+         <div id="secondFooter" class="footer-copyright">
            <div class="container">
            © 2017 Copyright
            <a class="grey-text text-lighten-4 right" href="#!">Contact Us</a>

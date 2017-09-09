@@ -2,15 +2,14 @@
 
  /*-------------HEADER-------------------*/
  $infos=[
-   'header' => ['titre'  =>'My Furniture',
-                'nom'    =>'By Leila & Nicolas'],
+   'header' => ['logo'  =>'img/logo-head.jpg'],
 
 
 
 
-  'footer' => ['titre'=>'A propos de nous',
-               'description'=>'Le binôme Nicolas-Leila. 2 apprenants Simplon
-               blablablablablablabla blablabla'],
+  'footer' => ['titreSocial'=>'Retrouvez Nous',
+              'titreSAV'=>'Service Client'],
+
 
 
  ];

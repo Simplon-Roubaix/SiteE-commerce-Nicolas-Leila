@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="icon" href="favicon.png">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/materialize.css">
@@ -21,22 +21,32 @@
 
     <header>
 
-
-      <nav class="nav-extended">
-        <div class="nav-wrapper">
-          <a href="#!" class="brand-logo center"><?php
-          echo $infos['header']['titre'] ;?></a>
-          <ul class="right hide-on-med-and-down">
-            <li><a>Promotions</a></li>
-            <li><a>My Compte</a></li>
-            <li><a>My Panier</a></li>
-          </ul>
-        </div>
-        <div class="nav-content">
-          <span class="nav-title"><?php
-          echo $infos['header']['nom'] ;?></span>
-        </div>
-      </nav>
-
+<nav id="header" class="nav-extended">
+   <div id="logo" class="nav-wrapper">
+     <a href="index.php" class="brand-logo center"><img src="<?php echo $infos['header']['logo'] ;?>" alt="logo">
+</a>
+     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+       <li><a href="index.php">Accueil</a></li>
+       <li><a href="#">My Favoris</a></li>
+       <li><a href="#">My Compte</a></li>
+       <li><a href="#">My Panier</a></li>
+     </ul>
+     <ul class="side-nav" id="mobile-demo">
+       <li><a href="index.php">Accueil</a></li>
+       <li><a href="#">My Favoris</a></li>
+       <li><a href="#">My Compte</a></li>
+       <li><a href="#">My Panier</a></li>
+     </ul>
+   </div>
+   <div class="nav-content">
+     <ul class="tabs tabs-transparent">
+       <li class="tab"><a href="#test1">Salon</a></li>
+       <li class="tab"><a class="active" href="#test2">Chambre à coucher</a></li>
+       <li class="tab"><a href="#test3">Luminaires</a></li>
+       <li class="tab"><a href="#test4">Promotions</a></li>
+     </ul>
+   </div>
+ </nav>
 
 </header>
