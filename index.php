@@ -1,6 +1,6 @@
 <?php
-require('cartes.php');
-require ('info.php');
+require('informationsProduit.php');
+require ('infosGenerales.php');
 include('header.php');
 ?>
 
@@ -26,7 +26,7 @@ foreach ($produits as $key => $value) {
         <div class="card-action">
           <form class="" action="descriptionProduit.php" method="post">
           <input type="hidden" name="clé" value="<?php echo $key?>">
-        <a href="produit2.php" id="linkProduct">Voir le produit<input type="submit" value="" class="btn-flat"/></a>
+        <a href="pageProduit.php" id="linkProduct">Voir le produit<input type="submit" value="" class="btn-flat"/></a>
         </form>
         </div>
       </div>

@@ -46,8 +46,14 @@ bleu : #039BE5*/
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 600px) {
     #logo {
-        margin-bottom: 4%;
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #logo {
+        margin-bottom: 1.5%;
     }
 }

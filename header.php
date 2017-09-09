@@ -21,19 +21,18 @@
 
     <header>
 
+
 <nav id="header" class="nav-extended">
    <div id="logo" class="nav-wrapper">
      <a href="index.php" class="brand-logo center"><img src="<?php echo $infos['header']['logo'] ;?>" alt="logo">
 </a>
      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
      <ul id="nav-mobile" class="right hide-on-med-and-down">
-       <li><a href="index.php">Accueil</a></li>
        <li><a href="#">My Favoris</a></li>
        <li><a href="#">My Compte</a></li>
        <li><a href="#">My Panier</a></li>
      </ul>
      <ul class="side-nav" id="mobile-demo">
-       <li><a href="index.php">Accueil</a></li>
        <li><a href="#">My Favoris</a></li>
        <li><a href="#">My Compte</a></li>
        <li><a href="#">My Panier</a></li>
@@ -41,8 +40,9 @@
    </div>
    <div class="nav-content">
      <ul class="tabs tabs-transparent">
+       <li class="tab"><a class="active" href="index.php">Accueil</a></li>
        <li class="tab"><a href="#test1">Salon</a></li>
-       <li class="tab"><a class="active" href="#test2">Chambre à coucher</a></li>
+       <li class="tab"><a href="#test2">Chambre à coucher</a></li>
        <li class="tab"><a href="#test3">Luminaires</a></li>
        <li class="tab"><a href="#test4">Promotions</a></li>
      </ul>
