@@ -22,8 +22,13 @@ bleu : #039BE5*/
   color:  #039BE5;
 }
 
-#carte p {
-  color: #90a4ae;
+#carte p, #description {
+  color: #78909c;
+}
+
+strong {
+  color: #039BE5;
+  font-size: 20px;
 }
 
 

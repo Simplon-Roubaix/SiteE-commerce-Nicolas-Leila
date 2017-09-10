@@ -6,7 +6,7 @@ include('header.php');
 
 <div class="container">
 <div class="row">
-  <h4 class="header titre">NOUVEAUX PRODUITS</h4>
+  <h4 class="header titre"><?php echo $infos['corps']['titre']?></h4>
 
 <?php
 foreach ($produits as $key => $value) {
