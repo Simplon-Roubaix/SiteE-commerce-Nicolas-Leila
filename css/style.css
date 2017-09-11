@@ -3,8 +3,8 @@ gris clair : #393939
 bleu : #039BE5*/
 
 @font-face {
-    font-family: "florence";
-    src: url(../fonts/Florence-Regular.ttf);
+    font-family: "fine";
+    src: url(../fonts/fine/Fine.ttf);
 }
 
 /*============= HEADER =====================*/
@@ -15,7 +15,7 @@ bleu : #039BE5*/
 
 /*================ CORPS ===============*/
 .titre {
-  font-family: "florence";
+  font-family: "fine";
 }
 
 #linkProduct {
@@ -47,6 +47,9 @@ strong {
   background-color: #393939;
 }
 
+#social i:hover {
+  color: white;
+}
 /*================ @MEDIA ===============*/
 @media (max-width: 925px) {
   #linkProduct {
