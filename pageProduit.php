@@ -1,25 +1,23 @@
-<!-- <?php echo $_POST['clé']; ?> -->
+<?php $_POST['clé']; ?>
 <?php
-require('informationsProduit.php');
-require ('infosGenerales.php');
-include('header.php');
+require('phpPages/informationsProduit.php');
+require ('phpPages/infosGenerales.php');
+include('phpPages/header.php');
 ?>
- <?php
-foreach ($produits as $key => $value) {
- ?>
+
 <div class="container">
   <div class="row">
  <div class="card large col s12 m11 l11 xl11">
-     <h4 class="header center-align"><?php echo $value['titre']; ?></h4>
+     <h4 class="header center-align titre"><?php echo $produits [$_POST['clé']]['titre']; ?></h4>
      <div class="hoverable card horizontal card medium">
        <div class="card-image">
-         <img src="<?php echo $value['image']; ?>" alt="meuble">
+         <img src="<?php echo $produits [$_POST['clé']]['image']; ?>" alt="meuble">
        </div>
        <div class="card-stacked">
          <div class="card-content">
-           <p id="description"><?php echo $value['informationsCompletes']; ?></p>
+           <p id="description"><?php echo $produits [$_POST['clé']]['informationsCompletes']; ?></p>
            <div class="card-action">
-           <p class="center-align"><strong><?php echo $value['prix']; ?></strong><br>
+           <p class="center-align"><strong><?php echo $produits [$_POST['clé']]['prix']; ?></strong><br>
              <br>
 <a class="waves-effect btn-large light-blue darken-1">Ajouter au panier</a></p>
 </div>
@@ -31,10 +29,6 @@ foreach ($produits as $key => $value) {
 </div>
 
 
-<?php
-}
-?>
-
  <?php
- include('footer.php');
+ include('phpPages/footer.php');
   ?>

@@ -1,7 +1,7 @@
 <?php
-require('informationsProduit.php');
-require ('infosGenerales.php');
-include('header.php');
+require('phpPages/informationsProduit.php');
+require ('phpPages/infosGenerales.php');
+include('phpPages/header.php');
 ?>
 
 <div class="container">
@@ -40,5 +40,5 @@ foreach ($produits as $key => $value) {
 </div>
 </div>
  <?php
- include('footer.php');
+ include('phpPages/footer.php');
   ?>

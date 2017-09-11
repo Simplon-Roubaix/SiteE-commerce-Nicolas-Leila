@@ -3,8 +3,8 @@ gris clair : #393939
 bleu : #039BE5*/
 
 @font-face {
-    font-family: "wheel";
-    src: url(../fonts/wheel/TYPEW___.TTF);
+    font-family: "florence";
+    src: url(../fonts/Florence-Regular.ttf);
 }
 
 /*============= HEADER =====================*/
@@ -15,7 +15,7 @@ bleu : #039BE5*/
 
 /*================ CORPS ===============*/
 .titre {
-  font-family: "wheel";
+  font-family: "florence";
 }
 
 #linkProduct {
