@@ -10,7 +10,7 @@
 
   'footer' => ['titre'=>'A propos de nous',
                'description'=>'Le binôme Nicolas-Leila. 2 apprenants Simplon
-               blablablablablablabla blablabla'],
+               ont le privilège de vous presenter leur premier site E-Commerce.'],
 
 
  ];
