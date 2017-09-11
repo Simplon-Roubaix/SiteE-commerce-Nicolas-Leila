@@ -13,12 +13,12 @@ $produits=[
           ],
 
 
-  'meuble3'=> ['image'       => 'img/lustre.jpeg',
+  'meuble3'=> ['image'       => 'img/salon.jpg',
             'description'    => 'text',
             'prix'           => '$',
           ],
 
-  'meuble4'=> ['image'       => 'img/salon.jpg',
+  'meuble4'=> ['image'       => 'img/lustre.jpeg',
             'description'    => 'text',
             'prix'           => '$',
           ],

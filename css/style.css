@@ -1,6 +1,73 @@
-/*gris : #313131*/
+/*gris foncé : #313131
+gris clair : #393939
+bleu : #039BE5*/
 
 @font-face {
-    font-family: "wheel";
-    src: url(../fonts/wheel/TYPEW___.TTF);
+    font-family: "florence";
+    src: url(../fonts/Florence-Regular.ttf);
+}
+
+/*============= HEADER =====================*/
+#header, #footer {
+  background-color: #313131;
+}
+
+
+/*================ CORPS ===============*/
+.titre {
+  font-family: "florence";
+}
+
+#linkProduct {
+  color:  #039BE5;
+}
+
+#carte p, #description {
+  color: #78909c;
+}
+
+strong {
+  color: #039BE5;
+  font-size: 20px;
+}
+
+
+/*================ FOOTER ===============*/
+
+#social {
+  display: inline-flex;
+  margin-left: 50px;
+}
+
+#social li {
+  margin-right: 30px;
+}
+
+#secondFooter {
+  background-color: #393939;
+}
+
+/*================ @MEDIA ===============*/
+@media (max-width: 925px) {
+  #linkProduct {
+    padding-left: 5%;
+  }
+}
+
+@media (max-width: 600px) {
+    #logo {
+        margin-bottom: 7%;
+    }
+}
+
+@media (min-width: 600px) {
+    #logo {
+        margin-bottom: 3%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #logo {
+        margin-bottom: 1.5%;
+    }
 }
