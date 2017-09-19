@@ -40,11 +40,11 @@
    </div>
    <div class="nav-content">
      <ul class="tabs tabs-transparent">
-       <li class="tab"><a class="active" href="index.php">Accueil</a></li>
+       <li class="tab"><a href="../index.php">Accueil</a></li>
        <li class="tab"><a href="#test1">Salon</a></li>
        <li class="tab"><a href="#test2">Chambre à coucher</a></li>
        <li class="tab"><a href="#test3">Luminaires</a></li>
-       <li class="tab"><a href="#test4">Promotions</a></li>
+       <li class="tab"><a class="active" href="#test4">Promotions</a></li>
      </ul>
    </div>
  </nav>
