@@ -8,10 +8,9 @@ catch(Exception $e)
   die('Erreur : '.$e->getMessage());
 }
 
-include('ajoutImg.php');
 
-$reponse = $bdd->query('SELECT MAX(id) FROM image');
-$description= $reponse->fetch();
+// $reponse = $bdd->query('SELECT * FROM cartes, image WHERE image.id_cartes = cartes.id');
+// $description= $reponse->fetch();
 
 
 $req = $bdd->prepare('INSERT INTO cartes(titre, description, prix, infosCompletes)
