@@ -15,7 +15,7 @@ include('header.php');
            <button class="waves-effect btn light-blue darken-1" type="submit" name="action">Valider
             <i class="material-icons right">send</i>
            </button>
-        </form>
+      
   </div>
 </div>
 <?php
