@@ -1,44 +1,26 @@
 <?php
-require('phpPages/informationsProduit.php');
-require ('phpPages/infosGenerales.php');
-include('phpPages/header.php');
+include('header.php');
 ?>
-
-<div class="container">
-<div class="row">
-  <h4 class="header titre"><?php echo $infos['corps']['titre']?></h4>
 
 <?php
-foreach ($produits as $key => $value) {
+ try {
+   $bdd = new PDO('mysql:host=localhost;dbname=SiteEcommerce;charset=utf8', 'root', 'leilalababsa', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+ } catch (Exception $e) {
+   die('Erreur : '.$e->getMessage());
+ }
 
-?>
+ $reponse = $bdd->query('SELECT * FROM infoGenerales');
+ $info= $reponse->fetch();
+  ?>
 
-  <div id="carte" class="col s12 m6 l6 xl6">
-    <div class="card horizontal card small">
-      <div class="card-image">
-        <img src="<?php echo $value['image']; ?>" alt="meuble">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <p> <?php echo $value['description']; ?><br>
-           <?php echo $value['prix']; ?></p>
-        </div>
-        <div class="card-action">
-          <form class="" action="pageProduit.php" method="post">
-          <input type="hidden" name="clé" value="<?php echo $key?>">
-          <input id="linkProduct" type="submit" value="Voir le produit" class="btn-flat"/>
-        </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<?php
-}
-?>
-
-</div>
-</div>
  <?php
  include('phpPages/footer.php');
   ?>
+  <div class="container">
+  <div class="row">
+    <h4 class="header titre"><?php echo $info['titreCorps']?></h4>
+
+    <?php
+    $reponse = $bdd->query('SELECT * FROM cartes, image WHERE image.id_cartes = cartes.id');
+      while ($donnees = $reponse->fetch()) {
+        ?>
