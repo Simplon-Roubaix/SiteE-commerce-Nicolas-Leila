@@ -18,7 +18,7 @@ bleu : #039BE5*/
   font-family: "fine";
 }
 
-#linkProduct {
+#carte a {
   color:  #039BE5;
 }
 
@@ -29,6 +29,13 @@ bleu : #039BE5*/
 strong {
   color: #039BE5;
   font-size: 20px;
+}
+
+/*================ FORM ===============*/
+#form {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  /*margin: 50px 0 100px 0;*/
 }
 
 
