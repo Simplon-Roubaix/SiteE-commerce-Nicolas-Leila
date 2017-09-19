@@ -4,3 +4,12 @@
  } catch (Exception $e) {
    die('Erreur : '.$e->getMessage());
  }
+
+ $pseudo=htmlspecialchars($_POST['pseudo']);
+$mdp=sha1($_POST['mdp']);
+
+$req=$bdd->prepare('SELECT * FROM login WHERE pseudo= :pseudo AND mdp= :mdp');
+$req->execute(array(
+  'pseudo'=>$pseudo,
+  'mdp'=>($mdp)
+));
