@@ -1,9 +1,20 @@
+<?php
+ try {
+   $bdd = new PDO('mysql:host=localhost;dbname=SiteEcommerce;charset=utf8', 'root', 'leilalababsa', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+ } catch (Exception $e) {
+   die('Erreur : '.$e->getMessage());
+ }
+
+ $reponse = $bdd->query('SELECT * FROM infoGenerales');
+ $info= $reponse->fetch();
+  ?>
+
 
   <footer id="footer" class="page-footer">
          <div class="container">
            <div class="row">
              <div class="col l6 s12">
-               <h5 class="titre white-text"><?php echo $infos['footer']['titreSocial']?></h5>
+               <h5 class="titre white-text"><?php echo $info['titreFooter1']?></h5>
                <ul id="social">
                  <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
                  <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook fa-2x"></i></a></li>
@@ -12,7 +23,7 @@
                </ul>
              </div>
              <div class="col l4 offset-l2 s12">
-               <h5 class="titre white-text"><?php echo $infos['footer']['titreSAV']?></h5>
+               <h5 class="titre white-text"><?php echo $info['titreFooter2']?></h5>
                <ul>
                  <li><a class="grey-text text-lighten-3" href="#" target = "_blank">Livraisons</a></li>
                  <li><a class="grey-text text-lighten-3" href="#" target = "_blank">Remboursement et Retours</a></li>
