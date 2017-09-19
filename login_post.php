@@ -13,3 +13,14 @@ $req->execute(array(
   'pseudo'=>$pseudo,
   'mdp'=>($mdp)
 ));
+$donnees = $req->fetch();
+
+  if($donnees['mdp']==$mdp){
+// var_dump($donnees['mdp']);
+    header('Location:formulaire.php');
+  }
+  else{
+    // echo "test";
+    header('Location:login.php');
+  }
+?>
